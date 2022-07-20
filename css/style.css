@@ -56,6 +56,17 @@ img {
 
 }
 
+.navbar {
+    background: var(--clr-accent);
+    color: #121212;
+}
+.nav-link {
+    color: #121212;
+}
+
+.navlink:hover {
+    color: rgba(255, 255, 255, .92);
+}
 
 .btn {
     display: inline-block;
@@ -292,3 +303,4 @@ nav { display: none;}
     transform: scale(1.2);
     opacity: .75;
 }
+
